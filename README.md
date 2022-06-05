@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# 4º Desafio de Projeto do Bootcamp da TQI na DIO.me - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este Repositório contém o exercício proposto com o quarto desafio de projeto do Bootcamp da TQI na DIO.me
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Foram realizadas as seguintes customizações do código:
+1. Foram feitas alterações na aparência, como cores, fontes, alinhamentos, ets.;
+2. Foi adicionada a possibiliadde de pressionar o Enter para realizar a busca do usuário;
+3. Foram corrigidos alguns links incorretos do código original;
+4. Foram removidos os 'console.log's para limpar o console;
+5. Foi removido o texto de 'username' do cabeçalho, já que o mesmo fica escrito no campo de busca;
+6. No lugar do 'username' foi inserida a bio do usuário;
+7. O link para a página do usuário que antes estava no 'username', foi transferido para o Nome;
+8. Foi implementado o uso do token de acesso à API do Github, já que sem o token o número de consultas é limitado, quebrando o retorno da API;
+9. O referido token deve ser gerado pelo usuário no momento da implementação e substituído no arquivo api.js, já que o Token usado tem fins de teste e, por isso tem prazo para expirar.
